@@ -2,6 +2,8 @@ package conf
 
 import (
 	"gopkg.in/ini.v1"
+        "os"
+        "strings"
 )
 
 type Config struct {
